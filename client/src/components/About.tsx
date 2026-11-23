@@ -13,7 +13,6 @@ const education = [
   "IHM Pusa, New Delhi",
   "IIM Bangalore",
   "Cornell University",
-  "CHA Certified",
 ];
 
 export default function About() {
