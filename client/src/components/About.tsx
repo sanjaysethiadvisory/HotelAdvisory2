@@ -2,17 +2,15 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const recognitions = [
+  "Certified Independent Director & Corporate Governance — IICA, 2025",
+  "Hall of Fame — Hospitality Horizon India, 2025",
   "Ph.D. Honoris Causa, 2024",
-  "Hall of Fame — Hotelier India, 2019",
-  "Hall of Fame — Hospitality Horizon India",
-  "Best Hospitality Professional — Pacific Asia Hotel Writers Association",
-  "Certified Independent Director & Corporate Governance — IICA",
+  "Hall of Fame — Hotelier India, 2020",
+  "Best Hospitality Professional — Pacific Asia Hotel Writers Association, 2020",
 ];
 
 const education = [
   "IHM Pusa, New Delhi",
-  "IIM Bangalore",
-  "Cornell University",
 ];
 
 export default function About() {
