@@ -95,10 +95,10 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-8 lg:px-16 py-10">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { value: "37+", label: "Years in Hospitality" },
-              { value: "3,000+", label: "Hotel Keys Led" },
-              { value: "3", label: "Major Brands Shaped" },
-              { value: "2024", label: "Ph.D. Honoris Causa" },
+              { value: "~4 Decades", label: "In Hospitality" },
+{ value: "3,000+", label: "Hotel Keys Led" },
+{ value: "$2B", label: "Market Cap Led" },
+{ value: "2024", label: "Ph.D. Honoris Causa" },
             ].map((stat) => (
               <div key={stat.label} data-testid={`stat-${stat.label.toLowerCase().replace(/\s+/g, '-')}`}>
                 <p className="font-serif text-3xl lg:text-4xl font-bold text-foreground mb-1">
