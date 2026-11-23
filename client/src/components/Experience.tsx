@@ -19,7 +19,7 @@ const timeline = [
     period: "2015 — Jan 2026",
     role: "Managing Director & CEO",
     company: "Chalet Hotels Limited",
-    description: "Led a successful IPO, drove asset strategy, and expanded the portfolio to 3,000+ keys across premium properties in partnership with Marriott, Hyatt, and Westin. Grew market cap to ~$2B. Ranked 2nd globally in DJSI among hotel, resort & cruise companies.",
+    description: "Led a successful IPO, drove asset strategy, and expanded the portfolio to 3,000+ keys across premium properties in partnership with Marriott, Hyatt, Accor and IHCL. Grew market cap to ~$2B. Ranked 2nd globally in DJSI among hotel, resort & cruise companies.",
     highlight: "IPO Leadership",
   },
   {
@@ -46,7 +46,7 @@ export default function Experience() {
           <div>
             <p className="text-xs font-semibold tracking-[0.35em] uppercase text-primary mb-4">Career Snapshot</p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground leading-snug max-w-xl">
-              37 Years.<br />Four Chapters.
+              Four Decades.<br />Four Chapters.
             </h2>
           </div>
           <p className="text-muted-foreground text-base max-w-xs lg:text-right">
