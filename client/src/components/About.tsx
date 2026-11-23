@@ -43,7 +43,7 @@ export default function About() {
           <div>
             <div className="space-y-6 text-muted-foreground text-base lg:text-lg leading-relaxed mb-12">
               <p>
-                37 years across the full arc of Indian hospitality — luxury and upper-upscale, mid-market and select-service, development and operations, fundraising and governance. Not as an observer, but as the person responsible for outcomes.
+                Nearly 4 decades across the full arc of Indian hospitality — luxury and upper-upscale, mid-market and select-service, development and operations, fundraising and governance. Not as an observer, but as the person responsible for outcomes.
               </p>
               <p>
                 Spent 14 formative years with the Taj Group, learning the discipline of luxury operations at scale. Built Keys Hotels & Resorts from concept to an established brand. Led Chalet Hotels through a successful IPO, took the company to a market capitalisation of $2 billion, expanded to 3,000+ keys in partnership with Marriott, Hyatt, Accor, and Taj, and launched the brand Athiva Hotels and Resorts in October 2025 for Chalet.
