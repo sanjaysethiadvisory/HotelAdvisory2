@@ -63,7 +63,6 @@ export default function Footer() {
               { label: "Experience", href: "#experience" },
               { label: "Engagements", href: "#engagements" },
               { label: "Contact", href: "#contact" },
-              { label: "Give Back Project", href: "/gbp" },
             ].map((item) => (
               <button
                 key={item.label}
