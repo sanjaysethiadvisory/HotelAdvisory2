@@ -1,6 +1,19 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+const currentEngagements = [
+  {
+    company: "Isprava / Lohono Stays",
+    role: "Strategic Advisor",
+    description: "India's leading luxury villa developer and experiential hospitality brand.",
+  },
+  {
+    company: "Sciative Solutions — ZettaRMS.ai",
+    role: "Strategic Advisor",
+    description: "AI-powered revenue management and pricing intelligence for hospitality.",
+  },
+];
+
 export default function Engagement() {
   const scrollToContact = () => {
     document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" });
@@ -19,7 +32,7 @@ export default function Engagement() {
               Selective. Confidential.<br />Experience-Led.
             </h2>
             <p className="text-muted-foreground text-base leading-relaxed mb-4">
-              Advisory engagements are limited by design — typically 4 to 5 focused days per month — structured around outcomes, not hours. This is not a consulting firm. It is access to one person's three decades of direct experience.
+              Advisory engagements are limited by design — typically 4 to 5 focused days per month — structured around outcomes, not hours.
             </p>
             <p className="text-muted-foreground text-base leading-relaxed mb-10">
               Engagements are available on retainer with clear deliverables. All conversations and mandates are held in the strictest confidence.
@@ -30,23 +43,42 @@ export default function Engagement() {
             </Button>
           </div>
 
-          <div className="grid grid-cols-2 gap-px bg-border border border-border">
-            {[
-              { label: "Commitment", value: "4–5 Days/Month" },
-              { label: "Structure", value: "Retainer + Deliverables" },
-              { label: "Confidentiality", value: "Absolute" },
-              { label: "Availability", value: "Select Mandates" },
-            ].map((item) => (
-              <div
-                key={item.label}
-                className="bg-background p-6 lg:p-8"
-                data-testid={`engagement-${item.label.toLowerCase().replace(/[^a-z0-9]/g, '-')}`}
-              >
-                <p className="text-xs text-muted-foreground uppercase tracking-wide mb-2">{item.label}</p>
-                <p className="font-serif text-lg font-semibold text-foreground">{item.value}</p>
-              </div>
-            ))}
+          <div>
+            <p className="text-xs font-semibold tracking-[0.35em] uppercase text-primary mb-5">
+              Current Engagements
+            </p>
+            <div className="space-y-6 mb-10">
+              {currentEngagements.map((item) => (
+                <div
+                  key={item.company}
+                  className="bg-card border border-border p-6"
+                >
+                  <p className="text-xs text-muted-foreground uppercase tracking-wide mb-1">{item.role}</p>
+                  <p className="font-serif text-lg font-semibold text-foreground mb-2">{item.company}</p>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="grid grid-cols-2 gap-px bg-border border border-border">
+              {[
+                { label: "Commitment", value: "4–5 Days/Month" },
+                { label: "Structure", value: "Retainer + Deliverables" },
+                { label: "Confidentiality", value: "Absolute" },
+                { label: "Availability", value: "Select Mandates" },
+              ].map((item) => (
+                <div
+                  key={item.label}
+                  className="bg-background p-6 lg:p-8"
+                  data-testid={`engagement-${item.label.toLowerCase().replace(/[^a-z0-9]/g, '-')}`}
+                >
+                  <p className="text-xs text-muted-foreground uppercase tracking-wide mb-2">{item.label}</p>
+                  <p className="font-serif text-lg font-semibold text-foreground">{item.value}</p>
+                </div>
+              ))}
+            </div>
           </div>
+
         </div>
       </div>
     </section>
