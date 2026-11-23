@@ -9,8 +9,8 @@ const recognitions = [
 ];
 
 const education = [
-  "Institute of Hotel Management, Pusa, New Delhi",
-"Certified Independent Director & Corporate Governance — IICA",
+  "Institute of Hotel Management, Pusa, New Delhi, 1988",
+"Certified Independent Director & Corporate Governance — Indian Institute of Corporate Affairs, 2025",
 ];
 
 
