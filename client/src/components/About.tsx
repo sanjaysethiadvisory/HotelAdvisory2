@@ -2,7 +2,6 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const recognitions = [
-  "Certified Independent Director & Corporate Governance — IICA, 2025",
   "Hall of Fame — Hospitality Horizon India, 2025",
   "Ph.D. Honoris Causa, 2024",
   "Hall of Fame — Hotelier India, 2020",
@@ -11,7 +10,9 @@ const recognitions = [
 
 const education = [
   "IHM Pusa, New Delhi",
+"Certified Independent Director & Corporate Governance — IICA, 2025",
 ];
+
 
 export default function About() {
   const scrollToContact = () => {
